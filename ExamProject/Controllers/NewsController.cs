@@ -73,12 +73,14 @@ namespace ExamProject.Controllers
             return Ok();
         }
 
-        [Route(@"daterange/{startDateString}/{endDateString}")]
-        [HttpGet]
-        public async Task<IActionResult> GetNewsinGivenRang()
-        {
+        //[Route(@"daterange/{startDateString}/{endDateString}")]
+        //[HttpGet]
+        //public async Task<IActionResult> GetNewsinGivenRang()
+        //{
 
-        }
+        //}
 
-    }
+
+    } 
+
 }
